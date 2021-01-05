@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
     private void startSekiro() {
         String uuid = Build.SERIAL;
         LogUtils.i("tyc start sekiro...... ");
-        final SekiroClient sekiroClient = SekiroClient.start("124.196.9.211",11000,uuid,"fridainject");
+        final SekiroClient sekiroClient = SekiroClient.start("XXX",11000,uuid,"fridainject");
         sekiroClient.registerHandler("jingdong", new JingdongHandler());
         LogUtils.i("tyc start sekiro!!!! ");
     }
